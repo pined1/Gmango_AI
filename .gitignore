@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.sqlite
+*.log
+
+# Environment
+.env
+.env.*
+
+# Embeddings (FAISS/Chroma/etc.)
+embeddings/
+db/
+
+# Jupyter & notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS / IDE
+.DS_Store
+.vscode/
+*.swp
+
+# Pip
+pip-wheel-metadata/
